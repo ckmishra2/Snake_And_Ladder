@@ -37,6 +37,7 @@ public class SnakeAndLadder {
 				break;
 			case 1:
 				int status = P1.current_position + result_p1;
+				if(status <=100)
 					P1.current_position = status;
 					
 				break;
@@ -52,6 +53,7 @@ public class SnakeAndLadder {
 				break;
 			case 1:
 				int status = P2.current_position + result_p2;
+				if(status <=100)
 					P2.current_position = status;
 					
 				break;
